@@ -30,7 +30,7 @@ If using with a fork version, you must enable native loop support (see below).
  - **loop** `true` to enable `--loop` omxplayer argument. Default is `false`.
 
 **WARNING:** at this time, loop is not supported by *official* **omxplayer**.
-If using with a fork version, you must enable native loop support. 
+If using with a fork version, you must enable native loop support.
 
 #### Example
 
@@ -110,6 +110,7 @@ It's possible to use this shortcut:
     omx.voldown();   // Decreases the volume one notch
     omx.backwards(); // Seek by -30 seconds
     omx.forwards();  // Seek by +30 seconds
+    omx.skip();      // stop video playing and start the next video if you set the multiple videos
 
 ### Events
 
@@ -123,4 +124,3 @@ It's possible to use this shortcut:
  - Emit event when each video start, stop etc...
  - Implement forward/backward.
  - Enable a fallback for loop and multiple files when native support is disabled.
- 
