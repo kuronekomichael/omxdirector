@@ -1,5 +1,5 @@
 {
-  "name": "omxdirector",
+  "name": "@kuronekomichael/omxdirector",
   "version": "0.1.2",
   "description": "Provide a nodejs interface for omxplayer (Raspberry Pi player). Support multiple file and loop.",
   "main": "lib/main.js",
